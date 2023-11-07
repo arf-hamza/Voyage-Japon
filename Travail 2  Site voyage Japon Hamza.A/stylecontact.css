@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "satochi" sans-serif;
+}
+header {
+    background-image: url(images/background-header2.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 195px;
+
+   
+}
+
+header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left:100px;
+}
+header p {
+    margin-left:100px;
+    font-family: sans-serif;
+}
+
+
+.bar-recherche input {
+    width: 120%;
+    background-image: url(images/search.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 190px;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 20px;
+    margin-top: 3px;
+    
+}
+
+.bar-recherche {
+    margin-right: 50px;
+}
+
+.bar-recherche img {
+ 
+    width: 20px;
+    height: 20px;
+}
+
+
+.navbar {
+    box-shadow: 3px 4px 3px 4px rgb(91, 78, 78);
+    margin-top: 70px;
+    margin-bottom: 450px;
+    margin-left: 3%;
+    height: 300px;
+    width: 25%;
+    background-color: white;
+    
+}
+
+.navbar ul li {
+    display: flex;
+}
+
+.navbar ul li  a {
+    
+    text-decoration: none;
+    margin-left: 10%;
+    margin-top: 25px;
+    color: black;
+    font-size: larger;
+    
+}
+
+.navbar ul li a:hover {
+    
+        color: brown;
+        text-decoration: underline;
+    }
+
+
+.navbar ul li img {
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.navbar li {
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+
+
+
+
+.nav-header { /* la barre bleue qui contient les deux liens et la barre de recherche */
+
+    display: flex;
+    justify-content: flex-end;
+    
+    background-color: #34374c ;
+    
+    color: #fff;
+    padding: 5px;
+}
+
+
+.nav-header ul li a {
+    
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+
+    
+}
+
+
+
+.nav-header li {
+    display: inline-block;
+    padding: 10px;
+}
+.nav-header a:hover {
+    color: brown;
+}
+
+
+main { /* élément qui contient le menu principal et la partie centrale */
+    display: flex;
+    background-color: #f6f6f6 ;
+}
+.formulaire {
+    width: 80%;
+    
+    box-shadow: 3px 4px 3px 4px rgb(91, 78, 78);
+    padding: 5px;
+    margin-left: 100px;
+    
+    margin-top: 70px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    margin-right: 2%;
+    position: relative;
+}
+
+.container { 
+    
+    
+    width: 100%;
+    height: 20%;
+    margin-right: 0%;
+    position: relative;
+}
+
+.formulaire p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 5px;
+    font-family: sans-serif;
+}
+
+.formulaire-id {
+    display:block;
+    padding: 5px;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+.formulaire label, .formulaire input, .formulaire select, .formulaire textarea{
+    width: 80%;
+    display: block;
+}
+
+.formulaire textarea {
+    height: 120px;
+    background-color: #f6f6f6;
+    
+}
+
+.time {
+    margin-bottom: 15px;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #34374c;
+    color: #f6f6f6;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.chekbox label   {
+   
+    margin-left: 10px;
+}
+
+.chekbox label input {
+    display: inline-block;
+}
+
+input[type=checkbox] {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+#popUpYes:hover
+{
+  background-color: rgb(71, 69, 71);
+} 
+
+form span {
+    color: red;
+}
+
+footer { /* contient les cinq colonnes du footer */
+ 
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #34374c;
+    padding: 20px;
+    color: #fff;
+}
+
+.chekbox input{
+    width:20px;
+    margin-top: 10px;
+}
+fieldset legend {
+    margin: 20px;
+    padding: 5px;
+    
+}
+
+fieldset {
+    margin-top: 20px;
+}
+
+.time  label,.time input {
+    display: inline-block;
+    width: 10%;
+}
+
+fieldset {
+    width: 30%;
+}
+
+
+
+.footer-liens a{
+    margin-left: 20px;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.footer-liens1 a{
+    margin-left: 20px;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-liens1 a:hover {
+    color: brown;
+}
+
+b {
+    float: right;
+ }
+
+.footer-liens a:hover {
+    color: brown;
+}
+
+.footer-logo img{
+    
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+
+
+    
